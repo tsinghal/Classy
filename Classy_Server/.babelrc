@@ -1,0 +1,24 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0",
+    "stage-2",
+    "stage-3"
+  ],
+  "plugins": [
+    "syntax-async-functions",
+    "syntax-object-rest-spread",
+    "transform-es2015-destructuring",
+    "transform-es2015-parameters",
+    "transform-object-rest-spread",
+   ["transform-async-to-module-method", {
+     "module": "bluebird",
+     "method": "coroutine"
+   }],
+   ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ]
+
+}

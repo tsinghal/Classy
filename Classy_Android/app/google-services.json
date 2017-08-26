@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "435429903946",
+    "firebase_url": "https://classy-c0f66.firebaseio.com",
+    "project_id": "classy-c0f66",
+    "storage_bucket": "classy-c0f66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435429903946:android:ae113cf08f0746e7",
+        "android_client_info": {
+          "package_name": "csci201.classy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435429903946-gm85lscq9kg9snr0r7lfdu7rjpsokk21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVplq_pV2F1nx34UNmVNarZsYGvQ-s6DA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

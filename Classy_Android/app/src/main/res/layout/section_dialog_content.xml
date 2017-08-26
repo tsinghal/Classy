@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Space
+        android:layout_height="match_parent"
+        android:layout_width="30dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/sectionDialogCourseCodeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CSCI-103"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/sectionDialogCourseNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Introduction to Programming"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Large" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/sectionDialogInstructors"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Saty Ragagaga" />
+
+        <TextView
+            android:id="@+id/sectionDialogSectionID"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Section ID: 123456" />
+
+        <TextView
+            android:id="@+id/sectionDialogSectionType"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Type: Lecture" />
+
+        <TextView
+            android:id="@+id/sectionDialogSectionTime"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Time: MW 1200 - 1400" />
+
+        <TextView
+            android:id="@+id/sectionDialogSectionUnits"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Units: 3.0" />
+
+        <TextView
+            android:id="@+id/sectionDialogFraction"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Registered: 53/60" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

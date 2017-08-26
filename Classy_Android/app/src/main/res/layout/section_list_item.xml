@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3.5dp"
+        android:layout_marginBottom="3.5dp">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/instructorTextView"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Aaron Cote" />
+
+            <TextView
+                android:id="@+id/sectionTypeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Lecture" />
+
+            <TextView
+                android:id="@+id/sectionTimeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="2:00 - 3:00" />
+
+            <TextView
+                android:id="@+id/sectionDayTextView"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="MW" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="15dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/spacesAvailableTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8"
+                android:textAlignment="textEnd"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textSize="24sp"
+                android:textColor="@color/blue"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
